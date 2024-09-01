@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+body{
+    font-family: "Happy Monkey", system-ui;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.avatar{
+    width: 170px;
+    border-radius: 50%;
+    border: 3.5px solid white;
+   
+}
+
+.container{
+    width:480px;
+    height: fit-content;
+    /* background-color: rgb(173, 238, 239); */
+    background: linear-gradient(rgb(173, 238, 239),rgb(94, 228, 186));
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    text-shadow: 0 0 1px black;
+
+    h1{
+        padding: 1.5rem 3rem;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .bday-age , .bday-date{
+        background-color: white;
+        width: fit-content;
+        margin: 1rem auto 0 auto;
+        padding: 5px 10px;  
+        border-radius: 5px; 
+        font-weight: bold;
+    }
+
+    .gift1-sec{
+        margin-top: 4rem;
+
+        .gift-title1{
+            margin-bottom: 0;
+        }
+
+        .gift-hint{
+            margin-top: 9px;
+        }
+        
+    }
+
+
+}
+
+.gift-img1{
+    width: 90%;
+    height: 400px; 
+    background-image: url("gift1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 2.5rem auto 0 auto;               
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.gift-img1:hover{
+    background-image: url("birthday.gif");
+    background-size: 100% 100%;
+    /* background-size: cover; */
+}
+
+
+#gift-img2:hover{
+    background-image: url("gift2.gif");
+    background-size: 100% 100%;
+}
+
+.footer-text-link{
+    border-bottom: 4px solid white;
+    color: black;
+    text-decoration: none;
+}
+footer{
+    margin-top: 3rem;
+    padding-bottom: .5rem;
+}
+
+.footer-text{
+    width: 400px;
+    margin: 40px auto 10px;
+}
+
+
+
+
+
